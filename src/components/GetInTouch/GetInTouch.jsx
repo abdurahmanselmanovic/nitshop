@@ -1,4 +1,4 @@
-import { Grid, TextField } from "@mui/material";
+import { Button, Grid, TextField } from "@mui/material";
 import React from "react";
 import Text from "../Text/Text";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -24,7 +24,12 @@ const GetInTouch = () => {
 		item1TextField: {
 			width: "100%",
 		},
-		item1BigTextField: {},
+		item1Button: {
+			backgroundColor: "orange",
+			color: " white",
+			float: "right",
+			marginTop: "10px",
+		},
 		item2p: {
 			color: "gray",
 			fontSize: "16px",
@@ -63,10 +68,13 @@ const GetInTouch = () => {
 					</Grid>
 					<Grid item xs={12}>
 						<TextField
-							style={styles.item1BigTextField}
 							fullWidth
+							style={styles.item1BigTextField}
 							label="Type your message here"
 						></TextField>
+						<Button style={styles.item1Button} variant="contained">
+							Submit
+						</Button>
 					</Grid>
 				</Grid>
 			</Grid>
