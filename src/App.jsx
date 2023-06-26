@@ -49,7 +49,7 @@ const App = () => {
 		},
 		{
 			path: "/about",
-			element: <AboutScreen />,
+			element: <HomePageScreen />,
 		},
 		{
 			path: "/contact",
