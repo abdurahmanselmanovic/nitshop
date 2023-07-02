@@ -28,6 +28,7 @@ const ShopPage = () => {
 			width: "100%",
 		},
 	};
+
 	return (
 		<>
 			<SimplifiedDiv style={styles.glavniDiv}>
