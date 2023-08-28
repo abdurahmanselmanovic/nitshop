@@ -2,6 +2,8 @@
 
 Here are some photos of website:
 
+![123](src/SiteImages/site1.png)
+
 \***\*https://nitshop.pages.dev/****
 
 ### `npm install`
