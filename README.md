@@ -2,7 +2,7 @@
 
 Here are some photos of website:
 
-****nitshop.pages.dev****
+\***\*https://nitshop.pages.dev/****
 
 ### `npm install`
 
